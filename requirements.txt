@@ -1,0 +1,12 @@
+# Reference: Python 3.13.x; Kaggle Linux + NVIDIA T4 / CUDA 13.0
+# Install a CUDA-enabled PyTorch build appropriate to your OS/GPU if pip's default is CPU-only.
+# The source model requires downloading its trusted remote code from Hugging Face.
+torch==2.11.0
+transformers==5.20.2
+tokenizers==0.23.3
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.7.2
+safetensors==0.7.0
+ipykernel==7.1.0
+nbformat==5.10.4
